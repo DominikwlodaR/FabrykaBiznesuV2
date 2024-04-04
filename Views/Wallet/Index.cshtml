@@ -1,0 +1,289 @@
+﻿@using FabrykaBiznesuV2.ViewModels;
+@model BudgetModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+
+
+@{
+    string date = DateTime.Now.ToString();
+    int spaceIndex = date.IndexOf(' ');
+    date = date.Substring(0, spaceIndex);
+  
+     double liveBudget = (double)Model.Project.ProjectBudget - Model.MoneySpend;
+}
+
+
+
+<div class="kafelki p-3 my-4">
+
+    @* <div class="eventFormDiv">
+
+        <form id='add-sum' class="eventForm" method="post" asp-controller="projects" asp-action="Wallet" onsubmit="return formValidate();">
+            <div class="d-flex justify-content-end" id="cancelAddForm">
+                <h3><i class="bi bi-x" id=""></i></h3>
+            </div>
+            <h3 id="title">Dodaj wydatek</h3><br />
+
+            <input asp-for="BAdd.projectId" type='text' class=" form-control mb-4" value="@Model.Project.id" hidden>
+            <input asp-for="BAdd.userId" type='text' class=" form-control mb-4" value="@Model.appUser.Name @Model.appUser.LastName" hidden>
+            <input asp-for="BAdd.date" type='text' class=" form-control mb-4" value="@date" hidden>
+            <input asp-for="BAdd.status" type='text' class=" form-control mb-4" value="Do akceptacji" hidden>
+           
+
+            <div class="row ">
+                <div class="col">
+                    <label asp-for="BAdd.description" class="form-label">Krótki opis: </label>
+                    <input asp-for="BAdd.description" type='text' class=" form-control mb-4">
+                    <span class="text-danger" id="descAlert"></span>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col">
+                    <label asp-for="BAdd.sum" class="form-label">Kwota: </label>
+                    <input asp-for="BAdd.sum" type='number' class=" form-control mb-4">
+                    <span class="text-danger" id="sumAlert"></span>
+                </div>
+            </div>
+            <div class="row ">
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="addButton" >Dodaj</button>
+                </div>
+            </div>
+        </form>
+
+       
+
+    </div> *@
+
+    <div class="modal fade " id="addExpenseModal" tabindex="-1" role="dialog" aria-labelledby="addExpenseModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addExpenseModalLabel">Dodaj wydatek</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id='add-sum' class="eventForm" method="post" asp-controller="wallet" asp-action="index" onsubmit="return formValidate();">
+
+                        <input asp-for="BAdd.projectId" type='text' class=" form-control mb-4" value="@Model.Project.id" hidden>
+                        <input asp-for="BAdd.userId" type='text' class=" form-control mb-4" value="@Model.appUser.Name @Model.appUser.LastName" hidden>
+                        <input asp-for="BAdd.date" type='text' class=" form-control mb-4" value="@date" hidden>
+                        <input asp-for="BAdd.status" type='text' class=" form-control mb-4" value="Do akceptacji" hidden>
+
+
+                        <div class="row ">
+                            <div class="col">
+                                <label asp-for="BAdd.description" class="form-label">Krótki opis: </label>
+                                <input asp-for="BAdd.description" type='text' class=" form-control ">
+                                <span class="text-danger" id="descAlert"></span>
+                            </div>
+                        </div>
+                        <div class="row mt-4 ">
+                            <div class="col">
+                                <label asp-for="BAdd.sum" class="form-label">Kwota: </label>
+                                <input asp-for="BAdd.sum" type='number' class=" form-control">
+                                <span class="text-danger" id="sumAlert"></span>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class=" d-flex justify-content-center">
+                                <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="addButton">Dodaj</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1> @Model.Project.projectName </h1>
+
+    @{
+        ViewData["projectId"] = Model.Project.id; 
+        Html.RenderPartial("_ProjectMenu"); 
+    }
+
+    <div class="card tile mt-3 pt-2 pb-2 text-center">
+        <h1>Porfel projektu</h1>
+    </div>
+
+    <div class="card tile mt-3 ">
+        <div class="row">
+            <div class="col pie-chart">
+                <div id="piechart" style="width: 100%; height: 100%;"></div>
+            </div>
+            <div class="col ">
+                <div class="">
+                    <table class="table wall-table">
+                        <tr>
+                            <th scope="col">Budżet</th>
+                            <td scope="col">@Model.Project.ProjectBudget zł</td>
+                        </tr>
+                        <tr>
+                            <th scope="col"> <i class="bi bi-square-fill text-danger"></i> Wykorzytsany budzet</th>
+                            <td scope="col">@Model.MoneySpend zł</td>
+                        </tr>
+                        <tr>
+                            <th scope="col"> <i class="bi bi-square-fill text-primary"></i> Wolny budzet</th>
+                            <td scope="col"> @liveBudget zł</td>
+                        </tr>
+                        <tr>
+                            <th scope="col"> <i class="bi bi-square-fill text-warning"></i> Niezatwierdzone wydatki</th>
+                            <td scope="col">@Model.NoAccept zł</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">Ilość zatwierdzonych wydatków</th>
+                            <td scope="col">@Model.AcceptedCounter</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">Ilość odrzuconych wydatków</th>
+                            <td scope="col">@Model.AcceptedCounter</td>
+                        </tr>
+                        <tr>
+                            <th scope="col">Ilość wydatków do zaakceptowania</th>
+                            <td scope="col">@Model.WaintingCounter</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card tile mt-3 pt-2 pb-2 text-center">
+        <h1>Lista wydatków</h1>
+    </div>
+
+    <div class="card tile mt-3 pt-3 pb-3">
+        <div class="row">
+            <div class="col  budget-table">
+                <a id="add-sum-bnt" class="btn btn-outline-secondary pl-5 pr-5" data-toggle="modal" data-target="#addExpenseModal">
+                    <i class="fas fa-plus"></i> Dodaj
+                </a>
+                <a id="filters" class="btn btn-outline-secondary pl-5 pr-5 ml-3"><i class="fas fa-filter"></i> Filtruj </a>
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col ml-3 mr-3">
+                <div id='bugdet-filters' class=" mt-3 p-3">
+                    <div class="row">
+                        <div class="col">
+                            <h3 id="title">Filtry i sotowanie</h3><br />
+                        </div>
+                        <div class="col">
+                            <div class="d-flex justify-content-end" >
+                                <h3><i class="bi bi-x" id="FilterReset"></i></h3>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row pl-5">
+                       
+
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label">Filtruj po fragmencie opisu: </label>
+                                <input type='text' class="form-control mb-4 filterInput" id="filter5 " data-column="0">
+                            </div>
+                         </div>
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label">Filtruj po osobie składającej: </label>
+                                <input type='text' class="form-control mb-4 filterInput" id="filter6" data-column="1" >
+                            </div>
+                        </div>
+                        
+                        <div class="col mt-4">  
+                            <button type='submit' class="btn btn-outline-danger btn-lg px-5 filter-bnt mt-2" id="FilterClear">Wyczyść </button>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+   
+        <div class="row">
+            <div class=" col budget-table">
+                <table class="table" id="budgetTable" >
+                    <thead>
+                        <tr>
+                            <th class="col-3" onclick="sortTable(0)" >Opis </th>
+                            <th class="col-2" onclick="sortTable(1)">Składający</th>
+                            <th class="col-2" onclick="sortTable(2)">Data <i class="bi bi-arrow-down arrow"/></th>
+                            <th class="col-2" onclick="sortTable(3)">Status</th>
+                            <th class="col-2" onclick="sortTable(4)">Kwota </th>
+                            <th class="col-1"></th>
+                    
+                        </tr>
+                    </thead>
+                   
+                    <tbody>
+                        @if(Model.Budgets.Count == 0)
+                        {
+                            <tr>
+                                <td rowspan="5">Brak elementów do wyświetlenia.</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                        }
+                        else
+                        {
+                            @foreach (var budgets in Model.Budgets)
+                            {
+                                <tr>
+                                    <td>@budgets.description</td>
+                                    <td>@budgets.userId</td>
+                                    <td>@budgets.date</td>
+                                    @if (budgets.status == "Do akceptacji")
+                                    {
+                                        <td>
+                                            <a asp-controller="wallet" asp-action="Accept" asp-route-id="@budgets.id" class="btn btn-outline-secondary bnt-budget"> Akceptuj </a>
+                                            <a asp-controller="wallet" asp-action="Reject" asp-route-id="@budgets.id" class="btn btn-outline-danger bnt-budget"> Odrzuć </a>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>@budgets.status</td>
+                                    }
+
+                                    <td>@budgets.sum zł</td>
+                                    <td>
+                                        <a asp-controller="wallet" asp-action="Delete" asp-route-id="@budgets.id" class="btn btn-outline-danger bnt-budget"> Usuń </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        
+                    </tbody>
+                
+                </table>
+             
+                    <div id="noDataMessageRow">
+                        <span id="noDataMessage">Brak elementów do wyświetlenia.</span>
+                    </div>
+             
+            </div>
+        </div>
+    </div>
+   
+   
+
+
+</div>
+<script>
+    var eventsJson = '@Html.Raw(ViewBag.budgetData)';
+    var events = JSON.parse(eventsJson);
+</script>
+
+
+<script src="/js/wallet.js" asp-append-version="true"></script>

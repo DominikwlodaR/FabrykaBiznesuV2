@@ -1,0 +1,461 @@
+﻿@using FabrykaBiznesuV2.ViewModels
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager
+
+@model AgendaTaskModelView
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    List<AgendaTask> collection = new List<AgendaTask>();
+    foreach(AgendaTask task in Model.agendaTaskCollection)
+    {
+        if (task.isSubtask == false)
+        {
+            collection.Add(task);
+        }
+    }
+    var user = await userManager.GetUserAsync(User);
+  
+    }
+   
+
+
+<div class="kafelki p-3 my-4">
+    <h1> @Model.project.projectName </h1>
+
+    @{
+        ViewData["projectId"] = Model.project.id; // Przekazanie danych do ViewData
+        Html.RenderPartial("_ProjectMenu"); // Renderowanie widoku częściowego
+    }
+
+
+    <div class="card tile mt-3 pt-2 pb-2 text-center">
+        <h1>Harmonogram projektu</h1>
+    </div>
+
+    <div class="card tile mt-3 pt-2 pb-2">
+
+        <div class="row">
+            <div class="col  ml-4 mt-2">
+                <a class="btn btn-outline-secondary pl-3 pr-3 agendaBnt" id="openAddTaskForm" data-toggle="modal" data-target="#TaskModal"><i class="fas fa-plus"></i> Dodaj </a>
+                <a id="expandAll" class=" btn btn-outline-secondary pl-3 pr-3 ml-3 agendaBnt"><i class="bi bi-caret-down-fill"></i> Rozwiń wszystkie </a>
+                <a id="collapseAll" class=" btn btn-outline-secondary pl-3 pr-3 ml-3 agendaBnt"><i class="bi bi-caret-up-fill"></i> Zwiń wszystkie </a>
+            
+            </div>
+
+        </div>
+        <div class="row mt-4 ml-1 mr-1">
+            <div class="col" id="ganttContainer">
+                @{
+                    List<object> contextItems = new List<object> { };
+
+                    contextItems.Add(new { text = "Szybkie dodawnie poniżej", target = ".e-content", id = "addBelow" });
+                    contextItems.Add(new { text = "Dodaj", target = ".e-content", id = "addTask" });
+                    contextItems.Add(new { text = "Dodaj podzadanie", target = ".e-content", id = "addSubTask" });
+                    contextItems.Add(new { text = "Przenieś wyżej", target = ".e-content", id = "MoveUp" });
+                    contextItems.Add(new { text = "Przenieś niżej", target = ".e-content", id = "moveDown" });
+                   
+                   
+                
+                    contextItems.Add(new { text = "Edytuj", target = ".e-content", id = "editTask" });
+                    contextItems.Add(new { text = "Zamień na kamień milowy", target = ".e-content", id = "mileStone" });
+                    contextItems.Add(new { text = "Usuń", target = ".e-content", id = "deleteTask" });
+
+
+                 
+                }
+
+                <ejs-gantt id='Gantt' treeColumnIndex="1" taskMode=Manual locale=" pl-PL" dataSource="@collection" height="650px" contextMenuOpen="contextMenuOpen"
+                contextMenuClick="contextMenuClick" enableContextMenu="true" contextMenuItems="contextItems" clientSideId="gantt" taskbarHeight="35" rowHeight="50"
+                includeWeekend="true" highlightWeekends="true" gridLines="Both">
+
+                    <e-gantt-taskfields id="TaskId" name="TaskName" startDate="StartDate" endDate="EndDate" duration="Duration" progress="Progress" dependency="Predecessor" child="SubTasks"></e-gantt-taskfields>
+                    <e-gantt-columns>
+                        <e-gantt-column field="TaskId" clipMode="Clip" headerText="ID" width="80" ></e-gantt-column>
+                        <e-gantt-column field="TaskName" headerText="Nazwa" width="250"></e-gantt-column>
+                        <e-gantt-column field="StartDate" headerText="Data atartowa"></e-gantt-column>
+                        <e-gantt-column field="EndDate" headerText="Data końcowa"></e-gantt-column>
+                        <e-gantt-column field="Duration" headerText="Duration"></e-gantt-column>
+                        <e-gantt-column field="Id" headerText="id" visible="false"></e-gantt-column>
+                        <e-gantt-column field="ProjectID" headerText="projectID " visible="false"></e-gantt-column>
+                        <e-gantt-column field="isSubtask" headerText="projectID" visible="false"></e-gantt-column>
+                        <e-gantt-column field="IsManual" headerText="IsManual" visible="false"></e-gantt-column>
+                        <e-gantt-column field="SubTasks" headerText="sub" visible="false"></e-gantt-column>
+                        <e-gantt-column field="Predecessor" headerText="predecessor" visible="false"></e-gantt-column>
+                        <e-gantt-column field="Status" headerText="Status" visible="false"></e-gantt-column>
+                        <e-gantt-column field="TeamId" headerText="teamID" visible="false"></e-gantt-column>
+                        <e-gantt-column field="Description" headerText="teamID" visible="false"></e-gantt-column>
+                        <e-gantt-column field="Status" headerText="status" visible="true"></e-gantt-column>
+
+                    </e-gantt-columns>
+                    <e-gantt-timelinesettings></e-gantt-timelinesettings>
+                    @* <e-gantt-tooltipsettings taskbar="#taskbarTooltip"> </e-gantt-tooltipsettings> *@
+                    <e-gantt-timelinesettings timelineViewMode="Week" weekStartDay="1" ></e-gantt-timelinesettings>
+                    <e-gantt-editsettings allowEditing="true" mode="Auto" allowTaskbarEditing="true"></e-gantt-editsettings>
+                    <e-gantt-editsettings allowAdding="true"></e-gantt-editsettings>
+                    <e-gantt-timelinesettings timeScale="days"
+                                              interval="1"
+                                              
+                                              showLabels="true"
+                                              labelFormat="MMM yy" >
+                    </e-gantt-timelinesettings>
+                    <e-gantt-timelinesettings>
+                        <e-timelinesettings-toptier unit="Week" format="dd/MM/yyyy"></e-timelinesettings-toptier>
+                        <e-timelinesettings-bottomtier unit="Day" format="dd"></e-timelinesettings-bottomtier>
+                    </e-gantt-timelinesettings>
+                </ejs-gantt>
+            
+         
+             
+              
+            </div>
+        </div>
+
+    </div>
+    <div class="card tile mt-3 pt-2 pb-2 text-center">
+        <h1>Dyskusja i komentarze</h1>
+    </div>
+
+    <div class="card tile mt-3 pt-2 pb-2 d-flex justify-content-center">
+        <div class="row mb-3 mt-3">
+            <div class="col-2"> </div>
+            <div class="col-8">
+                <form  method="post" id="commForm">
+                    <div class="card commennt mt-2 p-3">
+                        <div class="row">
+                            <div class="form-input col">
+                                @{String  userName = @user.Name + " "+ @user.LastName;}
+                                <input id="commUserId" type="text" class="form-control" value="@user.Id" hidden>
+                                <input id="commUserName" type="text" class="form-control" value="@user.Name @user.LastName" hidden >
+                                <input id="commProjectId" type="text" class="form-control" value="@Model.project.id" hidden> 
+                                @{
+                                    DateTime currentDate = DateTime.Now;
+                                    String formattedDate = currentDate.ToString("dd-MM-yyyy, HH:mm");
+                                }
+                            
+                                <input id="commDate" type="text" class="form-control" value="@formattedDate" hidden> 
+
+                                <textarea class="form-control" rows="2" placeholder="Dodaj komentzarz" id="commText" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-end mr-4 mt-3 mb-0">
+                                <button type='submit' class="btn btn-outline-dark btn-lg px-5 replyBnt" id="addCommButton" >Dodaj komentarz</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+
+        @foreach (AgendaComments comms in Model.comments) {
+            if (comms.isReply == false)
+            {
+                <div class="row ml-5 mr-5">
+                    <div class="col-2"> </div>
+                    <div class="col-8">
+
+                        <div class="card-body hoverElement">
+
+                            <div class="row">
+                                <div class="avatarComm ml-1">
+                                    <img class="rounded-circle shadow-1-strong me-3" src="/images/avatar.jpg" alt="avatar" width="35" height="35" />
+                                </div>
+                                <div class="col">
+                                    <h6 class="mb-0 pt-2">@comms.UserName</h6>
+                                </div>
+                                <div class="col">
+                                    <p class="mb-0 pt-4 text-right mr-2 comment-time"> <i class="fa fa-clock-o"></i> @comms.Date</p>
+                                </div>
+                            </div>
+
+                            <div class="card commennt mt-2 p-3">
+                                <div class="row">
+                                    <p class="mb-0 ml-3 mr-3">
+                                        @comms.Comment
+                                    </p>
+                                </div>
+                                <div class="row">
+                                   
+
+                                    <div class="col d-flex justify-content-end  mt-2 mb-0">
+                                        @if (comms.UserId == @user.Id)
+                                        {
+                                            <button type='submit' class="btn btn-outline-danger btn-lg px-5 mr-3 replyBnt deleteRelayBnt" style="display:none;" data-comment-id=" @comms.Id">Usuń </button>
+                                        }
+                                        <button type='submit' class="btn btn-outline-dark btn-lg px-5 replyBnt relayBnt" data-comment-id="@comms.Id">Odpowiedz </button>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-input col" id="addReplyFrom" data-comment-id="@comms.Id">
+                                        <form class="reply-form  mt-3" data-comment-id="@comms.Id" style="display:none;">
+                                            <input name="relayUserId" type="text" class="form-control" value="@user.Id" hidden >
+                                            <input name="relayUserName" type="text" class="form-control" value="@user.UserName " hidden >
+                                            <input name="relayProjectId" type="text" class="form-control" value="@Model.project.id" hidden>
+                                            <input name="parrentCommId" type="text" class="form-control" value="@comms.Id" hidden>
+                                            @{
+                                                DateTime relayDate = DateTime.Now;
+                                                String formattedRelayDate = relayDate.ToString("dd-MM-yyyy, HH:mm");
+                                            }
+
+                                            <input name="commDate" type="text" class="form-control" value="@formattedRelayDate" hidden>
+
+                                            <textarea class="form-control" rows="2" placeholder="Dodaj komentzarz" name="content" required></textarea>
+                                            <div class="row">
+                                                <div class="col d-flex justify-content-end mr-4 mt-3 mb-0">
+                                                    <button type='submit' class="btn btn-outline-dark btn-lg px-5 replyBnt addRelayBnt" id="addRealyButton">Dodaj odpowiedź</button>
+
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2"> </div>
+                </div>
+                if (comms.Replies != null && comms.Replies.Any())
+                {
+                    foreach (AgendaComments relay in comms.Replies)
+                    {
+                        <div class="row ml-5 mr-5">
+                            <div class="col-3"> </div>
+                            <div class="col-7">
+
+                                <div class="card-body hoverElement">
+
+                                    <div class="row">
+                                        <div class="avatarComm ml-1">
+                                            <img class="rounded-circle shadow-1-strong me-3" src="/images/avatar.jpg" alt="avatar" width="35" height="35" />
+                                        </div>
+                                        <div class="col">
+                                            <h6 class="mb-0 pt-2">@relay.UserName</h6>
+                                        </div>
+                                        <div class="col">
+                                            <p class="mb-0 pt-4 text-right mr-2 comment-time"> <i class="fa fa-clock-o"></i> @relay.Date</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card commenntReply mt-2 p-3">
+                                        <div class="row">
+                                            <p class="mb-0 ml-3">@relay.Comment</p>
+                                        </div>
+                                        <div class="col d-flex justify-content-end  mt-2 mb-0">
+                                            @if (relay.UserId == @user.Id)
+                                            {
+                                                <button type='submit' class="btn btn-outline-danger btn-lg px-5 mr-3 replyBnt deleteRelayBnt" style="display:none;" data-comment-id="@relay.Id">Usuń </button>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2"> </div>
+                        </div>
+                    }
+                }
+            }
+        }
+
+
+       
+
+ 
+    </div>
+    
+  
+
+</div>
+
+
+<div id="TaskModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+       
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="addTaskFormHeader">Dodaj zadanie</h4>
+                <h4 class="modal-title" id="editTaskFormHeader">Edytuj zadanie</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="taskForm" class="eventForm" >
+                    <div class="row">
+                        <div class="form-group " >
+                            <label>Numer zadania:</label>
+                            <input id="formTaskNumber" type="number"  class="form-control" required value="@(Model.agendaTaskCollection.LastOrDefault()?.TaskId + 1 ?? 1)" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group ">
+                            <label>Nazwa zadania:</label>
+                            <input id="formTaskName" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="form-group ">
+                            <label>Data startowa:</label>
+                            <input id="formTaskStartDate" type="date" class="form-control" required>
+                        </div>
+                     </div>
+                    <div class="row">
+                        <div class="form-group ">
+                            <label>Data Końcowa:</label>
+                            <input id="formTaskEndDate" type="date" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group ">
+                            <label>Opis zadania:</label>
+                            <textarea id="description" class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-check ml-3">
+                            <input class="form-check-input" type="checkbox" value="" id="relationChechbox" onchange="relationChecked()">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Dodaj powiązanie
+                            </label>
+                        </div>
+                    </div>
+                  
+
+                    <div class="row mt-3">
+                        <div class="form-group ">
+                            <label class="form-label">Dodaj zależność z: </label>
+                            <select class="form-select" id="relationSelect" disabled>
+                                <option value="" disabled selected hidden>Wybierz zadanie</option>
+                                @{
+                                    foreach(AgendaTask task in @Model.agendaTaskCollection)
+                                    {
+                                        
+                                        <option value="@task.TaskId">@task.TaskName</option>
+                                    }
+                                }
+
+                           
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group ">
+                            <label class="form-label">Relacją: </label>
+                            <select class="form-select" id="relationType" disabled>
+                                <option value="" disabled selected hidden>Wybierz typ relacji</option>
+                                <option value="FS">Koniec do początek</option>
+                                <option value="SF">Początek do koniec</option>
+                                <option value="SS">Początek do początek</option>
+                                <option value="Ff">Koniec do koniec</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <input id="predecessor" type="text" class="form-control" hidden>
+                    <input id="taskStatus" type="text" class="form-control" hidden>
+                    <input id="taskTeam" type="text" class="form-control" hidden>
+                    <input id="status" type="text" class="form-control" hidden>
+
+                    <div class="row">
+                        <div class="form-group ">
+                       
+                            <input id="formTaskprojID" type="text" class="form-control" required value="@Model.project.id" hidden>
+                        </div>
+                     </div>
+
+
+
+
+                    <input id="formTaskId" type="number" class="form-control" disabled hidden>
+                    <input id="isSubtask" type="text" class="form-control" disabled hidden>
+
+
+                    <div class="row mt-3">
+                        <div class=" d-flex justify-content-center">
+                            <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="addButton">Dodaj</button>    
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class=" d-flex justify-content-center">
+                            <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="editButton">Edytuj</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade " id="deleTaskConfirm" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Potwierdź usunięcie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Czy napewno chcesz usunąć zadanie?
+            </div>
+            <div class="modal-footer eventForm">
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="confirmDelete">Potwiedź</button>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-danger btn-lg px-5" id="cancelDelete">Anuluj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="deleCommConfirm" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Potwierdź usunięcie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Czy napewno chcesz usunąć komentarz?
+            </div>
+            <div class="modal-footer eventForm">
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="confirmCommDelete">Potwiedź</button>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-danger btn-lg px-5" id="cancelCommDelete">Anuluj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var taskNumber = @(Model.agendaTaskCollection.LastOrDefault()?.TaskId + 1 ?? 1)
+       
+</script>
+
+
+<script src="/js/agenda.js" asp-append-version="true"></script>
+
+<ejs-scripts></ejs-scripts>

@@ -1,0 +1,252 @@
+﻿@using FabrykaBiznesuV2.ViewModels
+@using Newtonsoft.Json;
+@using System.Text.Json;
+@model TeamViewModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+    
+@{
+    int i = 0;
+   
+}
+<script>
+    var teams = @Html.Raw(ViewBag.TasksJson)
+    console.log(teams)
+</script>
+<div class="kafelki p-3 my-4">
+    
+    <h1>Zespół: @Model.team.TeamName</h1>
+
+    <div class="row">
+        <div class="col-md-12 col-xl-7">
+            <div class="card tile mt-3 pt-2 pb-2 text-center">
+                <h1>Moje zadania</h1>
+            </div>
+
+
+            <div class="card tile mt-3">
+                <div class="ml-3 mt-3 ">
+                    <a id="filters" class="btn btn-outline-secondary pl-3 pr-3 btn-sm"><i class="fas fa-filter"></i> Filtruj </a>
+                </div>
+                <div class="mt-3 pl-3 pr-3 tableContainer">
+                    <table class="table " id="userTaskTable">
+                        <thead>
+                            <tr>
+                                <th class="col-3">Projekt </th>
+                                <th class="col-3">Zadanie</th>
+                                <th class="col-2">Data startowa</th>
+                                <th class="col-2">Data końcowa</th>
+                                <th class="col-2">Status</th>
+                          
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var task in Model.teamTasks)
+                            {
+                                if(task.UserId == Model.user.Id)
+                                {
+                                    <tr>
+                                        <td>@task.ProjectName</td>
+                                        <td>@task.TaskName</td>
+                                        <td>@task.StartDate.ToString("yyyy-MM-dd")</td>
+                                        <td>@task.EndDate.ToString("yyyy-MM-dd")</td>
+                                        <td>@task.Status</td>
+                                
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-xl-5">
+            <div class="card tile mt-3 pt-2 pb-2 text-center">
+                <h1>Statystyki zespołu</h1>
+            </div>
+            <div class="row">
+                <div  class="col">
+                    <div class="card tile stat"></div>
+                </div>
+                <div  class="col">
+                    <div class="card tile stat"></div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card tile  stat"></div>
+                </div>
+                <div class="col">
+                    <div class="card tile  stat"></div>
+                </div>
+            </div>
+           
+        
+
+        </div>
+    </div>
+   
+
+    <div class="card tile mt-3 pt-2 pb-2 text-center">
+        <h1>Przydzielanie zadań</h1>
+    </div>
+
+    <div class="card tile mt-3 pt-2 pb-2">
+        <div class="row ml-2 mr-2 mt-3 mb-2">
+
+            <div class="col-6 col-md-6 col-lg-6 col-xl-3 mb-3">
+                <div class="card">
+                    <div class="card-header"> <i class="bi bi-calendar"></i>&nbsp Zadania zespołu</div>
+                    <div class="card-body category" style="padding-top: 3px !important;padding-bottom: 3px !important;">
+                        @{
+                            i = 0;
+                        }
+                        @foreach (AgendaTaskViewModel task in Model.teamTasks)
+                        {
+                            if (task.SubTasks.Count() == 0 && task.Status == "inProgress" && task.UserId == null)
+                            {
+                                <div class="row mb-1">
+                                    <div class="card taskcard">
+                                        <div class="card-body">
+                                            <div class="row pt-2">
+                                           
+                                                 <h6 class="card-title"> @task.ProjectName </h6>
+                                              
+                                              
+                                                <h6 class="card-title"> <i class="bi bi-circle"></i>&nbsp @task.TaskName </h6>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-2">
+                                                    <label class="col-form-label"><i class="fas fa-users"></i></label>
+                                                </div>
+                                                <div class="col-10">
+                                                    <input type='text' class="form-control" id="selectTeam_@task.Id" autocomplete="off" onclick="showOptions('selectTeam_@task.Id', 'list_@task.Id' , teams, 'teamID_@task.Id', 'saveTeamBtn_@task.Id')" placeholder="Przedziel zespół">
+                                                   
+                                                    <span class="text-danger mt-4" id="alert_@task.Id" hidden>Proszę wybrać zespół z listy</span>
+                                                    <div class="teamOptionsList" id="list_@task.Id"></div>
+                                                    <input type='text' class="form-control" id="teamID_@task.Id" >
+                                                </div>
+                                            </div>
+                                            <div class="row mt-3">
+                                                <div class="col">
+                                                    <p style="color:#B8B8B8;"><i class="far fa-calendar-alt"></i> @task.StartDate.ToString("dd.MM.yyyy")</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p style="color:#B8B8B8;"><i class="far fa-calendar-alt"></i> @task.EndDate.ToString("dd.MM.yyyy")</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="d-flex justify-content-center">
+                                                    <button type='submit' onclick="validate('@task.Id', 'teamID_@task.Id', teams, 'alert_@task.Id')" class="btn btn-outline-secondary btn-sm px-5" id="saveTeamBtn_@task.Id">Zatwierdź</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        }
+                        @if (i == 0)
+                        {
+                            <p class="mt-3">Brak zadań do wypisania.</p>
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-6 col-xl-3 mb-3">
+                <div class="card">
+                    <div class="card-header"> <i class="bi bi-play-circle-fill" style="color:orange;"></i>&nbsp Zadania w trakcie</div>
+                    <div class="card-body category" style="padding-top: 3px !important;padding-bottom: 3px !important;">
+                        @{
+                            i = 0;
+                        }
+                        @foreach (AgendaTaskViewModel task in Model.teamTasks)
+                        {
+                            if (task.SubTasks.Count() == 0 && task.Status == "inProgress"  && task.UserId != null)
+                            {
+                                <div class="row mb-1">
+                                    <div class="card taskcard">
+                                        <div class="card-body inProg">
+                                            <div class="row pt-0">
+
+                                                <div class="col-auto ml-auto">
+                                                    <i class="bi bi-pencil" id="editTeamAssigm_@task.Id" onclick="EditTeamAssign(@task.Id, @task.TeamId)"></i>
+                                                </div>
+                                            </div>
+                                            <div class="row pt-0">
+                                                <h6 class="card-title"> <i class="bi bi-circle"></i>&nbsp @task.TaskName </h6>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-2">
+                                                    <label class="col-form-label"><i class="fas fa-users"></i></label>
+                                                </div>
+                                                <div class="col-10">
+                                                    @foreach (var member in Model.teamMembers){
+                                                        @if(task.UserId == member.Id) {
+                                                           
+                                                            <input type='text' class="form-control" id="selectTeam_@task.Id" autocomplete="off" onclick="showOptions('selectTeam_@task.Id', 'list_@task.Id' , teams, 'teamID_@task.Id', 'saveTeamBtn_@task.Id')" value="@member.Name @member.LastName" disabled>
+
+                                                    
+                                                            }
+                                                        }
+
+                                                    <span class="text-danger mt-4" id="alert_@task.Id" hidden>Proszę wybrać zespół z listy</span>
+                                                    <div class="teamOptionsList" id="list_@task.Id"></div>
+                                                    <input type='text' class="form-control" id="teamID_@task.Id" hidden value="@task.TeamId">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-3">
+                                                <div class="col">
+                                                    <p style="color:#B8B8B8;"><i class="far fa-calendar-alt"></i> @task.StartDate.ToString("dd.MM.yyyy")</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p style="color:#B8B8B8;"><i class="far fa-calendar-alt"></i> @task.EndDate.ToString("dd.MM.yyyy")</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="d-flex justify-content-center">
+                                                  
+                                                    <button hidden type='submit' onclick="validate('@task.Id', 'teamID_@task.Id', teams, 'alert_@task.Id')" class="btn btn-outline-secondary btn-sm px-5" id="saveTeamBtn_@task.Id">Zatwierdź</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+
+                        }
+                        @if (i == 0)
+                        {
+                            <p class="mt-3">Brak zadań do wypisania.</p>
+                        }
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-6 col-xl-3 mb-3">
+                <div class="card">
+                    <div class="card-header"> <i class="bi bi-check-circle" style="color:green;"></i>&nbsp Zadania do akceptacji</div>
+                    <div class="card-body category"></div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-6 col-xl-3 mb-3">
+                <div class="card">
+                    <div class="card-header"> <i class="bi bi-check-circle-fill" style="color:green;"></i> Wykonane zadania</div>
+                    <div class="card-body category"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<script src="/js/team.js" asp-append-version="true"></script>

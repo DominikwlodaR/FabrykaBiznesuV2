@@ -1,0 +1,98 @@
+﻿@using FabrykaBiznesuV2.ViewModels
+@using System.Security.Claims;
+@model homeModel
+
+@{
+  
+    var userName = Model.AppUser.Name;
+
+
+
+  
+
+}
+
+
+
+
+<div class="banner">
+    <img src="./images/banner.jpg" class="banner-img" />
+</div> 
+
+
+<main>
+   
+    <div class=" kafelki p-3 my-4">
+
+       
+         <h1>Dzień dobry @userName!</h1>
+        
+        <div class="buttons">
+            <button type="button"><i class="fa fa-plane" aria-hidden="true"></i> Wniosek urlopowy</button>
+            <button type="button"><i class="fa fa-clock-o" aria-hidden="true"></i></> Zarejestruj godziny</button>
+            <button type="button"><i class="fa fa-handshake-o" aria-hidden="true"></i> Zaplnanuj spotkanie</button>
+        </div>
+
+        <div class="row"> 
+            <div class="column  col-lg-7">
+                <div class="card tile">
+                    <div class="card-header"><h4>Aktualności</h4></div>
+                    <div class="card-body">
+
+                      
+                    <h1>User: @Model.AppUser.Name</h1>
+                    <h2>Events:</h2>
+                    <ul>
+                         @foreach (var item in Model.Events)
+                        {
+                                <li>id:  @item.EventID text: @item.Title Start: @item.Start  End: @item.End</li>
+                          
+                            
+                        }
+                    </ul>
+
+                     <h2>Notifications:</h2>
+                        <ul>
+                            @foreach (var item in Model.Notifications)
+                            {
+                                <li>id:  @item.NotId text: @item.Message userid: @item.UserID </li>
+                               
+                            }
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="card tile">
+                    <div class="card-header"><h4>Header</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                 </div>
+            </div>
+
+
+            <div class="column col-lg-5">
+                <div class="card tile">
+                    <div class="card-header"><h4>Kalendarz</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card tile">
+                    <div class="card-header"><h4>Urlopy</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card tile">
+                    <div class="card-header"><h4>Nieobecni</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

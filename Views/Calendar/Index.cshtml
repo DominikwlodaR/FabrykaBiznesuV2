@@ -1,0 +1,318 @@
+﻿@using FabrykaBiznesuV2.ViewModels;
+@model CalendarViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class="kafelki p-3 my-4 ">
+
+    <div class="eventFormDiv">
+
+        <form id='eventForm' class="eventForm" method="post">
+
+            <div class="d-flex justify-content-end" id="cancel" >
+                <h3><a asp-controller="Calendar" asp-action="Index"><i class="bi bi-x"></i> </a></h3>
+                </div>
+            
+
+            <h3 id="title">Dodaj wydarzenie</h3><br />
+            <div class="row">
+
+                <input type='text' asp-for="Event.EventID" class="form-control mb-4" >
+                <span asp-validation-for="Event.EventID" class="text-danger"></span>
+            </div>
+
+
+            <div class="row">
+                
+                <input type='text' asp-for="Event.UserID" class="form-control mb-4" value="test">
+                <span asp-validation-for="Event.UserID" class="text-danger"></span>
+             </div>
+
+
+            <div class="row ">
+                <div class="col">
+                    <label class="form-label" asp-for="Event.Title">Nazwa wydarzenia: </label>
+                    <input type='text' asp-for="Event.Title" class=" form-control mb-4">
+                    <span asp-validation-for="Event.Title" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label"  asp-for="Event.Start">Data poczatku wydarzenia: </label>
+                        <input type='date' asp-for="Event.Start" class="form-control mb-4">
+                        <span asp-validation-for="Event.Start" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" asp-for="Event.End">Data koćca wydarzenia: </label>
+                        <input type='date' asp-for="Event.End" class="form-control mb-4">
+                        <span asp-validation-for="Event.End" class="text-danger"></span>
+                    </div>
+                </div>
+              
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" asp-for="StartTime">Godzina poczatku wydarzenia: </label>
+                        <input type='text' asp-for="StartTime" class="form-control mb-4"  onfocus="(this.type='time')" onblur="(this.type='text')" >
+                        <span asp-validation-for="StartTime" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" asp-for="EndTime">Godzina koćca wydarzenia: </label>
+                        <input type='text' asp-for="EndTime" class="form-control mb-4" onfocus="(this.type='time')" onblur="(this.type='text')" >
+                        <span asp-validation-for="EndTime" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">Opis </label>
+                    <textarea class="form-control  mb-4  " rows="5"></textarea>
+                </div>
+            </div>
+
+
+         @*    <div class=" mb-4">
+                <input class="form-check-input" type="checkbox" value="" id="eventCheck" checked />
+                <label class="form-check-label" for="enentCheckLable"> Wydarzenie całodniowe/kilkudniowe </label>
+            </div> *@
+            <div class="row ">
+                <div class=" d-flex justify-content-center">
+                    <button type='submit' class="btn btn-outline-dark btn-lg px-5" id="addButton" asp-controller="Calendar" asp-action="Create">Dodaj wydarzenie</button>
+                </div>
+              
+            </div>
+
+            <div class="row ">
+                <div class="col">
+                    <div class=" d-flex justify-content-center">
+                        <button type='submit' class="btn btn-outline-dark btn-lg px-5" asp-controller="Calendar" asp-action="Edit" id="editButton">Edytuj wydarzenie</button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class=" d-flex justify-content-center">
+                        <button type='submit' class="btn btn-outline-danger btn-lg px-5" asp-controller="Calendar" asp-action="Delete" id="deleteButton">Usuń wydarzenie</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+ 
+ 
+
+       
+
+        <div id="calendar"></div>
+
+ 
+
+        @section Scripts {
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var calendarEl = document.getElementById('calendar');
+                    var eventForm = document.getElementById('eventForm');
+                    var editEventForm = document.getElementById('editEventForm');
+                    var closeButton = document.getElementById('cancel');
+                   
+                    var eventsJson = '@Html.Raw(ViewBag.Events)';
+                    var events = JSON.parse(eventsJson);
+                    var calendar = new FullCalendar.Calendar(calendarEl, {
+                        locale: 'pl',
+                        firstDay: 1,
+                        dayHeaderFormat: { weekday: 'long' },
+                        initialView: 'dayGridMonth',
+                        headerToolbar: {
+                            left: 'prev,today', 
+                            center: 'title',
+                            right: 'dayGridMonth,timeGridWeek,next'
+                        },
+                        buttonText: {
+                            today: 'Dzisiaj', 
+                            month: 'Miesiąc', 
+                            week: 'Tydzień', 
+                            day: 'Dzień' 
+                        },
+                        events : events,
+                        schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+                        selectable: true,
+
+                        select: function (info) {
+
+                            var userID = document.getElementById('Event_UserID');
+                            userID.style.display = 'none'
+
+                            var Title = document.getElementById('title');
+                            Title.innerText = "Dodaj wydarzenie";
+
+                            document.getElementById('Event_EventID').disabled = 'true';
+                            document.getElementById('Event_EventID').style.display = 'none';
+                            let startData = new Date(info.startStr);
+                            let formattedStartDate = startData.toISOString().slice(0, 10);
+                            
+
+                            let endDate = new Date(info.endStr);
+                            let formattedEndDate = endDate.toISOString().slice(0, 10);
+                            
+                                
+                            let startData1 = new Date(info.startStr);
+                            let startTime = startData1.toLocaleTimeString(); 
+
+                            let endData1 = new Date(info.endStr);
+                            let endTime = endData1.toLocaleTimeString();
+
+                           
+                            let eventData = {
+                                
+                                    start: formattedStartDate,
+                                    end: formattedEndDate,
+                                    startTime: startTime,
+                                    endTime: endTime
+                                
+                            };
+                            populateForm(eventData); 
+                            var deleteButton = document.getElementById('deleteButton');
+                            deleteButton.style.display = 'none';
+                            var editButton = document.getElementById('editButton');
+                            editButton.style.display = 'none';
+                            var addButton = document.getElementById('addButton');
+                            addButton.style.display = 'block';
+
+                            eventForm.style.display = 'block';
+                            document.getElementById('Event_Title').focus();
+                            selectedStartDate = info.start;
+                            calendar.unselect();
+                       },
+
+                        eventClick: function (info) {
+                            var Title = document.getElementById('title');
+                            Title.innerText = "Edytuj wydarzenie";
+
+                            var eventId = document.getElementById('Event_EventID');
+                            eventId.value = info.event.id;
+                            eventId.style.display = 'none'
+
+                            var eventTitle = document.getElementById('Event_Title');
+                            eventTitle.value = info.event.title;
+                            
+
+                            var userID = document.getElementById('Event_UserID');
+                            userID.value = info.event.userID;
+                            userID.style.display = 'none'
+
+                            let startData = new Date(info.event.startStr);
+                            let formattedStartDate = startData.toISOString().slice(0, 10);
+                            var eventStart = document.getElementById('Event_Start');
+                            eventStart.value = formattedStartDate;
+                            
+                            let endDate = new Date(info.event.endStr);
+                            let formattedEndDate = endDate.toISOString().slice(0, 10);
+                            var eventEnd = document.getElementById('Event_End');
+                            eventEnd.value = formattedEndDate;
+
+                            let startData1 = new Date(info.event.startStr);
+                            let startTime = startData1.toLocaleTimeString();
+
+                            let endData1 = new Date(info.event.endStr);
+                            let endTime = endData1.toLocaleTimeString();
+
+                            var startTimeInput = document.getElementById('StartTime');
+                            var endTimeInput = document.getElementById('EndTime');
+                            if (startTime != endTime) { 
+
+                                startTimeInput.value = startTime;
+                                startTimeInput.disabled = false;
+
+                                endTimeInput.value = endTime;
+                                endTimeInput.disabled = false;
+                            }
+                            else
+                            {
+                                   startTimeInput.disabled = true;
+                                   endTimeInput.disabled = true;
+                            }
+                            var deleteButton = document.getElementById('deleteButton');
+                            deleteButton.style.display = 'block';
+                            var editButton = document.getElementById('editButton');
+                            editButton.style.display = 'block';
+                            var addButton = document.getElementById('addButton');
+                        addButton.style.display = 'none';
+
+                           
+                            eventForm.style.display = 'block';
+
+                        },
+
+                        dayMaxEventRows: true,
+                        displayEventEnd:true,
+                        views: {
+                            timeGrid: {
+                                dayMaxEventRows: 3,
+                           
+                            }
+                        },
+                        eventTimeFormat: { 
+                            hour: 'numeric', 
+                            minute: '2-digit', 
+                        },
+                });
+
+
+                    calendar.render();
+
+                    function populateForm(eventData) {
+
+                        document.getElementById('Event_Start').value = eventData.start;
+                        document.getElementById('Event_End').value = eventData.end;
+
+                  
+
+                        if (eventData.startTime != eventData.endTime) { 
+
+                            let startTimeInput = document.getElementById('StartTime');
+                            startTimeInput.value = eventData.startTime;
+                            startTimeInput.disabled = false;
+
+                            let endTimeInput = document.getElementById('EndTime');
+                            endTimeInput.value = eventData.endTime;
+                            endTimeInput.disabled = false;
+                        }
+                    }
+
+                 
+
+
+                    closeButton.addEventListener('click', function () {
+                        
+                        document.getElementById("eventForm").reset();
+
+                        eventForm.style.display = 'none';
+                        calendar.unselect(); 
+                        calendar.setOption('selectable', true);
+                        
+                });
+
+                });
+            </script>
+        }
+
+
+  
+
+
+</div>

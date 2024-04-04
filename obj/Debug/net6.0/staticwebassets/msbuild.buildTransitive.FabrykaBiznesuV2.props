@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FabrykaBiznesuV2.props" />
+</Project>

@@ -1,0 +1,17 @@
+﻿@using FabrykaBiznesuV2.ViewModels
+@model Project
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class="kafelki p-3 my-4">
+    <h1> @Model.projectName </h1>
+    @{
+        ViewData["projectId"] = Model.id; 
+        Html.RenderPartial("_ProjectMenu"); 
+    }
+</div>

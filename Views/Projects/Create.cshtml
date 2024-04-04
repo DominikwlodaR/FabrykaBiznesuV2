@@ -1,0 +1,218 @@
+﻿@using FabrykaBiznesuV2.ViewModels
+@model Project
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script>
+    var users = @Html.Raw(ViewBag.Users);
+
+  
+</script>
+
+<div class=" kafelki p-3 my-4">
+    <h1 class="he">Tworzenie karty projektu</h1>
+
+    <div class="card tile mt-3 pt-3">
+        <form method="post" asp-action="Create" id="formProject">
+            <input asp-for="@Model.status" type='text' class=" form-control" value="W trakcie realizacji" hidden> 
+            <div class="row mt-4 mb-3">
+                <div class="col">
+                   <div class="row">
+                       <div class="col">
+                            <div class="form-part-title">
+                                <p>Informacje ogólne</p>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label asp-for="@Model.projectName" class="form-label">Nazwa projektu: </label>
+                                <input asp-for="@Model.projectName" type='text' class=" form-control" autocomplete="off">
+                                 <span asp-validation-for="@Model.projectName" class="text-danger" ></span>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input searcher">
+                                <label class="form-label" asp-for="@Model.projectManagerId">Kierownik projektu: </label>
+                                <input type='text' class=" form-control  " id="projMan" oninput="showOptions('projMan', 'list', users, 'projectManagerId')" autocomplete="off" placeholder="Wpisz imię i nazwisko kierownika projektu">
+                                <div class="optionsList" id="list"></div>
+                                <input type='text' class=" form-control " asp-for="@Model.projectManagerId" hidden >
+                               
+                            </div>
+                            <div class="col ml-2">
+                                <span class="text-danger" asp-validation-for="@Model.projectManagerId"></span>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input searcher">
+                                <label class="form-label" asp-for="@Model.managementLiderId">Przewodniczący komitetu sterującego: </label>
+                                <input type='text' class=" form-control" id="lider" oninput="showOptions('lider', 'list2' , users, 'managementLiderId')" autocomplete="off" placeholder="Wpisz imię i nazwisko przewodniczącego">
+                                <div class="optionsList" id="list2"></div>
+                                <input type='text' class=" form-control"  asp-for="@Model.managementLiderId" hidden>
+                            </div>
+                            <div class="col ml-2">
+                                <span class="text-danger" asp-validation-for="@Model.projectManagerId"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input searcher">
+                                <label class="form-label" asp-for="@Model.managementMemberId">Członek komitetu sterującego: </label>
+                                <input type='text' class=" form-control" id="member" oninput="showOptions('member', 'list3', users,'managementMemberId')" autocomplete="off" placeholder="Wpisz imię i nazwisko">
+                                <div class="optionsList" id="list3"></div>
+                                <input type='text' class=" form-control" asp-for="@Model.managementMemberId" hidden>
+                            </div>
+                            <div class="col ml-2">
+                                <span class="text-danger" asp-validation-for="@Model.managementMemberId"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.category">Kategoria projektu: </label>
+                                <select class="form-select" aria-label="Default select example" place asp-for="@Model.category">
+                                    <option value="" disabled selected hidden>Wybierz kategorie</option>
+                                    <option value="1">Aplikacja webowa</option>
+                                    <option value="2">Aplikacja moilna</option>
+                                    <option value="3">Oprogramowanie biznesowe</option>
+                                    <option value="3">Inne</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="@Model.category"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                   <div class="row">
+                        <div class="col">
+                            <div class="form-part-title">
+                                <p>Harmonogram projektu</p>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.start">Planowany początek: </label>
+                                <input type='date' class=" form-control" asp-for="@Model.start">
+                                <span class="text-danger" asp-validation-for="@Model.start"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.end">Planowany koniec: </label>
+                                <input type='date' class=" form-control" asp-for="@Model.end">
+                                <span class="text-danger" asp-validation-for="@Model.end"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-4">
+                            <div class="form-part-title">
+                                <p>Budżet projektowy </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.ProjectBudget"> Wstępny budżet projektu (PLN): </label>
+                                <input type='number' class=" form-control" asp-for="@Model.ProjectBudget">
+                                <span class="text-danger" asp-validation-for="@Model.ProjectBudget"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.budgetDeviation"> Maksymalne odchylenie budżetu (%): </label>
+                                <input type='number' class=" form-control" asp-for="@Model.budgetDeviation">
+                                <span class="text-danger" asp-validation-for="@Model.budgetDeviation"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-part-title">
+                        <p>Opis projeku</p>
+                     </div>
+                 </div>
+            </div>
+
+            <div class="row mt-4 mb-3">
+                <div class="col">
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.projectScope">Zakres projektu:</label>
+                                <textarea class="form-control" rows="5" asp-for="@Model.projectScope"></textarea>
+                                <span class="text-danger" asp-validation-for="@Model.projectScope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.businessGoals">Cele biznesowe:</label>
+                                <textarea class="form-control" rows="5" asp-for="@Model.businessGoals"></textarea>
+                                <span class="text-danger" asp-validation-for="@Model.businessGoals"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col ">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.products">Produkty projektu:</label>
+                                <textarea class="form-control" rows="5" asp-for="@Model.products"></textarea>
+                                <span class="text-danger" asp-validation-for="@Model.products"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-3">
+                            <div class="form-input">
+                                <label class="form-label" asp-for="@Model.costs">Wstępne koszyty:</label>
+                                <textarea class="form-control" rows="5" asp-for="@Model.costs"></textarea>
+                                <span class="text-danger" asp-validation-for="@Model.costs"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-5 justify-content-center">
+                <div class="col-6">
+                    <div class="  card mt-3">
+                        <button type="submit" class="btn btn-outline-primary"> Utwórz projekt</button>
+                    </div>
+                </div>
+            </div>
+
+           
+        </form>
+    </div>
+</div>
+
+
+
+<script src="/js/projectCreate.js" asp-append-version="true"></script>
+
+
+

@@ -1,0 +1,1905 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FabrykaBiznesuV2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FabrykaBiznesuV2.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar.jpg"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\images\\logo.PNG",
+      "PackagePath": "staticwebassets\\images\\logo.PNG"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\agenda.js",
+      "PackagePath": "staticwebassets\\js\\agenda.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\create.js",
+      "PackagePath": "staticwebassets\\js\\create.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\projectCreate.js",
+      "PackagePath": "staticwebassets\\js\\projectCreate.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\resources.js",
+      "PackagePath": "staticwebassets\\js\\resources.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\team.js",
+      "PackagePath": "staticwebassets\\js\\team.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\timeline.js",
+      "PackagePath": "staticwebassets\\js\\timeline.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\js\\wallet.js",
+      "PackagePath": "staticwebassets\\js\\wallet.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.dark.min.css",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.dark.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.dark.min.css.map",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.dark.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.dark.rtl.min.css",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.dark.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.min.css",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.min.css.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\css\\mdb.rtl.min.css",
+      "PackagePath": "staticwebassets\\mdb\\css\\mdb.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\img\\mdb-favicon.ico",
+      "PackagePath": "staticwebassets\\mdb\\img\\mdb-favicon.ico"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\js\\mdb.es.min.js",
+      "PackagePath": "staticwebassets\\mdb\\js\\mdb.es.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\js\\mdb.es.min.js.map",
+      "PackagePath": "staticwebassets\\mdb\\js\\mdb.es.min.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\js\\mdb.umd.min.js",
+      "PackagePath": "staticwebassets\\mdb\\js\\mdb.umd.min.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\js\\mdb.umd.min.js.map",
+      "PackagePath": "staticwebassets\\mdb\\js\\mdb.umd.min.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\callbacks\\charts.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\callbacks\\charts.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\callbacks\\free.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\callbacks\\free.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\callbacks\\pro.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\callbacks\\pro.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\index.free.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\index.free.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\index.pro.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\index.pro.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\init.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\init.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\initSelectors\\free.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\initSelectors\\free.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\autoinit\\initSelectors\\pro.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\autoinit\\initSelectors\\pro.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\alert.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\alert.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\base-component.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\button.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\button.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\button.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\carousel.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\collapse.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dropdown.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\modal.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\modal.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\popover.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\popover.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\tab.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\tab.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\toast.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\toast.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\tooltip.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\config.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\alert.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\alert.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\base-component.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\base-component.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\button.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\button.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\carousel.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\carousel.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\collapse.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\collapse.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\data.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\data.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\event-handler.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\manipulator.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dropdown.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\dropdown.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\modal.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\modal.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\offcanvas.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\offcanvas.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\popover.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\popover.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\scrollspy.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\scrollspy.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\tab.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\tab.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\toast.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\toast.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\tooltip.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\tooltip.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\backdrop.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\component-functions.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\config.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\config.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\focustrap.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\sanitizer.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\scrollbar.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\swipe.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\mdb-prefix\\util\\template-factory.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\alert.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\alert.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\base-component.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\button.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\button.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\carousel.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\collapse.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\dom\\data.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\dropdown.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\modal.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\modal.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\offcanvas.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\popover.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\popover.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\scrollspy.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\tab.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\tab.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\toast.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\toast.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\tooltip.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\config.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\bootstrap\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\bootstrap\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\alert.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\alert.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\base-component.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\base-component.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\button.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\button.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\carousel.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\carousel.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\collapse.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\collapse.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\dropdown.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\dropdown.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\input.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\input.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\modal.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\modal.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\popover.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\popover.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\range.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\range.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\ripple.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\ripple.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\scrollspy.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\scrollspy.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\tab.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\tab.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\toast.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\toast.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\free\\tooltip.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\free\\tooltip.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb.free.es.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb.free.es.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb.free.umd.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb.free.umd.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\dom\\data.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\dom\\data.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\dom\\event-handler.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\dom\\manipulator.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\click-rail.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\click-rail.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\drag-thumb.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\drag-thumb.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\keyboard.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\keyboard.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\mouse-wheel.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\mouse-wheel.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\touch.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\handlers\\touch.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\class-names.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\class-names.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\css.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\css.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\dom.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\dom.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\event-manager.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\event-manager.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\util.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\lib\\util.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\process-scroll-diff.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\process-scroll-diff.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\perfect-scrollbar\\update-geometry.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\perfect-scrollbar\\update-geometry.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\focusTrap.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\focusTrap.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\keycodes.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\keycodes.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\sanitizer.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\scrollbar.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\stack.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\stack.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\touch\\index.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\touch\\index.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\touch\\swipe.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\touch\\swipe.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\js\\mdb\\util\\touch\\touchUtil.js",
+      "PackagePath": "staticwebassets\\mdb\\src\\js\\mdb\\util\\touch\\touchUtil.js"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_accordion.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_alert.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_alert.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_badge.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_badge.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_button-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_card.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_card.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_carousel.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_close.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_close.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_containers.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_containers.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_forms.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_forms.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_functions.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_functions.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_helpers.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_images.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_images.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_list-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_maps.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_maps.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_mixins.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_modal.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_modal.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_nav.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_nav.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_navbar.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_pagination.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_placeholders.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_popover.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_popover.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_progress.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_progress.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_reboot.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_root.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_root.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_spinners.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_tables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_tables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_toasts.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_transitions.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_type.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_type.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_variables-dark.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\_variables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\_variables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap-rtl-fix\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap-rtl-fix\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\custom\\_styles.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\custom\\_variables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_accordion.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_alert.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_alert.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_badge.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_badge.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_button-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_card.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_card.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_carousel.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_close.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_close.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_colors.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_colors.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_deprecated.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_deprecated.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_flag.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_flag.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_functions.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_functions.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_images.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_images.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_list-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_mixins.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_modal.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_modal.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_nav.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_nav.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_navbar.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_pagination.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_popover.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_popover.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_progress.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_progress.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_range.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_range.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_reboot.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_ripple.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_root.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_root.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_scrollspy.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_scrollspy.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_shadows.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_shadows.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_tables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_tables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_toasts.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_type.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_type.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_utilities.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_variables-dark.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\_variables.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\_variables.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_form-file.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_form-file.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\mixins\\_ripple.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\mixins\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\free\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\free\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\FabrykaBiznesuV2\\FabrykaBiznesuV2\\wwwroot\\mdb\\src\\scss\\mdb.free.scss",
+      "PackagePath": "staticwebassets\\mdb\\src\\scss\\mdb.free.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FabrykaBiznesuV2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FabrykaBiznesuV2.props",
+      "PackagePath": "build\\FabrykaBiznesuV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FabrykaBiznesuV2.props",
+      "PackagePath": "buildMultiTargeting\\FabrykaBiznesuV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FabrykaBiznesuV2.props",
+      "PackagePath": "buildTransitive\\FabrykaBiznesuV2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

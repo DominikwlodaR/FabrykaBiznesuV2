@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="card tile mt-3">
+    <nav class="navbar navbar-expand navbar-light ptojMenu p-0  ">
+        <div class="navbar-collapse">
+            <ul class="navbar-nav me-auto navopt  ">
+                <li class="nav-item  flex-fill text-center">
+                    <a class="nav-link d-block w-100 pl-4 pr-4" asp-action="dashboard" asp-controller="projects" asp-route-id="@ViewData["projectId"]">Dashboard</a>
+                </li>
+                <li class="nav-item flex-fill text-center">
+                    <a class="nav-link d-block w-100 pl-4 pr-4" asp-action="index" asp-controller="agenda" asp-route-id="@ViewData["projectId"]">Harmonogram</a>
+                </li>
+                <li class="nav-item flex-fill text-center">
+                    <a class="nav-link d-block w-100 pl-4 pr-4" asp-action="index" asp-controller="wallet" asp-route-id="@ViewData["projectId"]">Budżet</a>
+                </li>
+                <li class="nav-item flex-fill text-center">
+                    <a class="nav-link d-block w-100 pl-4 pr-4" asp-action="index" asp-controller="resources" asp-route-id="@ViewData["projectId"]">Zasoby</a>
+                </li>
+                <li class="nav-item flex-fill text-center">
+                    <a class="nav-link d-block w-100 pl-4 pr-4" asp-action="test" asp-controller="test">Dokumenty</a>
+                </li>
+            </ul>
+
+            
+
+        </div>
+
+
+    </nav>
+
+
+</div>
+<script>
+    $(document).ready(function () {
+        var currentUrl = window.location.pathname;
+        var navLinks = $(".ptojMenu .nav-link");
+
+        navLinks.each(function () {
+            var href = $(this).attr("href");
+            if (currentUrl.startsWith(href)) {
+                $(this).addClass("active");
+            }
+        });
+    });
+</script>
